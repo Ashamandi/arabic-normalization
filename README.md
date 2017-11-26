@@ -6,7 +6,7 @@ Nodejs module to normalize Arabic chars to improve search and replace function f
 
 ## installation
 
-npm install @ashamandi/arabic-normalization
+npm install arabic-normalization
 
 ## Usage
    var normalize = require('arabic-normalization');

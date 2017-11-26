@@ -1,5 +1,5 @@
 {
-  "name": "ashamandi",
+  "name": "arabic-normalization",
   "version": "0.1.0",
   "description": "this module is to normalize Arabic chars to improve search and replace function",
   "main": "src/normalization.js",
