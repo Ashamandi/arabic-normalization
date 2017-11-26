@@ -9,8 +9,9 @@ Nodejs module to normalize Arabic chars to improve search and replace function f
 npm install arabic-normalization
 
 ## Usage
+
    var normalize = require('arabic-normalization');
-   normalize.normalizeArabicChars("İì ÇáÃÓÈæÚ ÇáÍÇáí íÊã ÊÍÏíÏ ßã ÅÕÈÚ");
+   normalize("İì ÇáÃÓÈæÚ ÇáÍÇáí íÊã ÊÍÏíÏ ßã ÅÕÈÚ");
    
    output:
    
