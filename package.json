@@ -1,0 +1,31 @@
+{
+  "name": "ashamandi",
+  "version": "0.1.0",
+  "description": "this module is to normalize Arabic chars to improve search and replace function",
+  "main": "src/normalization.js",
+  "dependencies": {
+    "jshint": "^2.9.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "pretest": "jshint ./src ./tests",
+    "test": "mocha ./tests/test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashamandi/arabic-normalization.git"
+  },
+  "engine": "node >= 0.6",
+  "keywords": [
+    "arabic",
+    "normalization",
+    "search"
+  ],
+  "author": "Ayah Shamandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ashamandi/arabic-normalization/issues"
+  },
+  "homepage": "https://github.com/Ashamandi/arabic-normalization#readme"
+}
